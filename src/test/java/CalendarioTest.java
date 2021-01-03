@@ -42,10 +42,9 @@ public class CalendarioTest {
     @Test
     public void testAnnoBisestile() {
         System.out.println("AnnoBisestile");
-        Calendario instance = new Calendario(29, 2, 2024);
+        Calendario instance = new Calendario(28, 2, 2021);
         instance.AnnoBisestile();
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
@@ -54,10 +53,10 @@ public class CalendarioTest {
     @Test
     public void testCalcolo() {
         System.out.println("Calcolo");
-        Calendario instance = new Calendario(29, 2, 2024);
+        Calendario instance = new Calendario(28, 2, 2021);
         instance.Calcolo();
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        
     }
     
 }
